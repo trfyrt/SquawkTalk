@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
+        <variable constant="0" name="requiredLetters" sid="476791068826612" static="0" type="text"></variable>
+        <variable constant="0" name="tempWord" sid="946067309855053" static="0" type="text"></variable>
+        <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
+        <event-block sid="678176990220073">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="555381954166065" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Request project file" sid="557843996606930" type="AJAX">
+                    <param id="0" name="Tag">&quot;loadDict&quot;</param>
+                    <param id="1" name="File">dictionary.json</param>
+                </action>
+                <action id="-9" name="Set value" sid="500020984154087" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">maxTimer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="918292098335964">
+            <conditions>
+                <condition id="0" name="On completed" sid="415779163865140" type="AJAX">
+                    <param id="0" name="Tag">&quot;loadDict&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Load" sid="725200399634546" type="WordDict">
+                    <param id="0" name="JSON">AJAX.LastData</param>
+                </action>
+                <action id="0" name="Call function" sid="931779670661842" type="Function">
+                    <param id="0" name="Name">&quot;GenerateRound&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="751079484778822">
+            <conditions>
+                <condition id="0" name="On function" sid="772988562648890" type="Function">
+                    <param id="0" name="Name">&quot;GenerateRound&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="435234944330267" type="System">
+                    <param id="0" name="Variable">requiredLetters</param>
+                    <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;)</param>
+                </action>
+                <action id="0" name="Set text" sid="186398481635618" type="TxtLetters">
+                    <param id="0" name="Text">requiredLetters</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="857360642481946">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="905431352658261" type="System" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="529121831510870" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+                <action id="0" name="Set text" sid="153686362538667" type="TxtTimer">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="555123981429574">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="537966432622162" type="Keyboard">
+                    <param id="0" name="Key">13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="608214886440713" type="System">
+                    <param id="0" name="Variable">tempWord</param>
+                    <param id="1" name="Value">lowercase(InputBox.Text)</param>
+                </action>
+                <action id="0" name="Set text" sid="713779428635038" type="InputBox">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="947570700009040">
+                    <conditions>
+                        <condition id="3" name="Has key" sid="205793775446584" type="WordDict">
+                            <param id="0" name="Key">tempWord</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="792188555044887">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="367955641846664" type="System">
+                                    <param id="0" name="First value">find(tempWord, requiredLetters)</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="817075205645808">
+                                    <conditions>
+                                        <condition id="3" name="Has key" sid="773623374022433" type="UsedWordDict">
+                                            <param id="0" name="Key">tempWord</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set font color" sid="442607061610731" type="TxtFeedback">
+                                            <param id="0" name="Color">rgb(127, 255, 0)</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="271128176515901" type="TxtFeedback">
+                                            <param id="0" name="Text">&quot;Chirp already know!&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="406302580306653">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="296443893541157" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Add key" sid="998244788859071" type="UsedWordDict">
+                                            <param id="0" name="Key">tempWord</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="4" name="Set font color" sid="576095006499577" type="TxtFeedback">
+                                            <param id="0" name="Color">rgb(0, 255, 0)</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="230462969336110" type="TxtFeedback">
+                                            <param id="0" name="Text">tempWord&amp;&quot;!&quot;</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="238511899764546" type="Function">
+                                            <param id="0" name="Name">&quot;GenerateRound&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="988463286832684">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="876534233830453" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set font color" sid="154447183212778" type="TxtFeedback">
+                                    <param id="0" name="Color">rgb(255, 0, 0)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="466182778615391" type="TxtFeedback">
+                                    <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="212700306541264">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="491129652224043" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="825195307249480" type="TxtFeedback">
+                            <param id="0" name="Color">rgb(255, 0, 0)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="408672873615301" type="TxtFeedback">
+                            <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="559275422063762">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="169453394353481" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="401066239411720" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
