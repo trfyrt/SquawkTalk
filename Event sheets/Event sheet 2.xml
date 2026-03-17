@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 2</name>
     <events>
+        <include>Event sheet 1</include>
         <event-block sid="362770894247925">
             <conditions>
                 <condition id="0" name="On clicked" sid="436471994503708" type="Button" />
@@ -10,6 +11,16 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="869117907879794" type="System">
                     <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="120399644958597">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="326526106830410" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="634221359280141" type="TxtTotalScore">
+                    <param id="0" name="Text">&quot;Score: &quot;&amp;totalScore</param>
                 </action>
             </actions>
         </event-block>

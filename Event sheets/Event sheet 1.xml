@@ -3,6 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="comboMaxTimer" sid="517162314755316" static="0" type="number">5</variable>
+        <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">5</variable>
+        <variable constant="0" name="comboCount" sid="406284925676803" static="0" type="number">0</variable>
+        <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
         <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
         <variable constant="0" name="requiredLetters" sid="476791068826612" static="0" type="text"></variable>
         <variable constant="0" name="tempWord" sid="946067309855053" static="0" type="text"></variable>
@@ -20,6 +24,7 @@
                     <param id="0" name="Variable">timer</param>
                     <param id="1" name="Value">maxTimer</param>
                 </action>
+                <action id="3" name="Clear" sid="134977137151750" type="UsedWordDict" />
             </actions>
         </event-block>
         <event-block sid="918292098335964">
@@ -54,6 +59,19 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="491690627679004">
+            <conditions>
+                <condition id="0" name="On function" sid="946730793817919" type="Function">
+                    <param id="0" name="Name">&quot;ScoreUpdate&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="481311937240050" type="System">
+                    <param id="0" name="Variable">totalScore</param>
+                    <param id="1" name="Value">len(tempWord)*(comboCount+1)</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="857360642481946">
             <conditions>
                 <condition id="-1" name="Every tick" sid="905431352658261" type="System" />
@@ -66,7 +84,31 @@
                 <action id="0" name="Set text" sid="153686362538667" type="TxtTimer">
                     <param id="0" name="Text">timer</param>
                 </action>
+                <action id="-11" name="Subtract from" sid="192710477625827" type="System">
+                    <param id="0" name="Variable">comboTimer</param>
+                    <param id="1" name="Value">dt</param>
+                </action>
+                <action id="0" name="Set text" sid="687628537120588" type="TxtComboCount">
+                    <param id="0" name="Text">&quot;x&quot;&amp;comboCount</param>
+                </action>
             </actions>
+            <sub-events>
+                <event-block sid="546392784488618">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="108401964075953" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="808600774541965" type="System">
+                            <param id="0" name="Variable">comboCount</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="555123981429574">
             <conditions>
@@ -136,6 +178,18 @@
                                             <param id="0" name="Name">&quot;GenerateRound&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
+                                        <action id="-10" name="Add to" sid="374286590776941" type="System">
+                                            <param id="0" name="Variable">comboCount</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="977608222540341" type="System">
+                                            <param id="0" name="Variable">comboTimer</param>
+                                            <param id="1" name="Value">comboMaxTimer</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="517769169180861" type="Function">
+                                            <param id="0" name="Name">&quot;ScoreUpdate&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -165,6 +219,10 @@
                         </action>
                         <action id="0" name="Set text" sid="408672873615301" type="TxtFeedback">
                             <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="571720392028773" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

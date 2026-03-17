@@ -92,6 +92,12 @@
         <object-type name="Browser" sid="499043685161286">
             <plugin id="Browser" />
         </object-type>
+        <object-type name="TxtTotalScore" sid="995437746358969">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TxtComboCount" sid="689192172910516">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
