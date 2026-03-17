@@ -6,11 +6,11 @@
         <variable constant="0" name="comboMaxTimer" sid="517162314755316" static="0" type="number">5</variable>
         <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">5</variable>
         <variable constant="0" name="comboCount" sid="406284925676803" static="0" type="number">0</variable>
-        <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
         <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
+        <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
+        <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
         <variable constant="0" name="requiredLetters" sid="476791068826612" static="0" type="text"></variable>
         <variable constant="0" name="tempWord" sid="946067309855053" static="0" type="text"></variable>
-        <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
         <event-block sid="678176990220073">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="555381954166065" type="System" />
