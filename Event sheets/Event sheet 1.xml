@@ -3,9 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <variable constant="0" name="comboMaxTimer" sid="517162314755316" static="0" type="number">5</variable>
-        <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">5</variable>
-        <variable constant="0" name="comboCount" sid="406284925676803" static="0" type="number">0</variable>
+        <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">0</variable>
         <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
         <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
         <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
@@ -65,12 +63,54 @@
                     <param id="0" name="Name">&quot;ScoreUpdate&quot;</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="481311937240050" type="System">
-                    <param id="0" name="Variable">totalScore</param>
-                    <param id="1" name="Value">len(tempWord)*(comboCount+1)</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="533253720362084">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="766571836801227" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="295621962974503" type="System">
+                            <param id="0" name="Variable">totalScore</param>
+                            <param id="1" name="Value">len(tempWord)*2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="574024807996362">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="486008551014338" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="124995598405264" type="System">
+                            <param id="0" name="Variable">totalScore</param>
+                            <param id="1" name="Value">len(tempWord)*5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="332459018816381">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="249213441713902" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="187042785798151" type="System">
+                            <param id="0" name="Variable">totalScore</param>
+                            <param id="1" name="Value">len(tempWord)*10</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="857360642481946">
             <conditions>
@@ -84,12 +124,15 @@
                 <action id="0" name="Set text" sid="153686362538667" type="TxtTimer">
                     <param id="0" name="Text">timer</param>
                 </action>
+                <action id="3" name="Set progress" sid="356585305197570" type="TimerBar">
+                    <param id="0" name="Value">timer</param>
+                </action>
                 <action id="-11" name="Subtract from" sid="192710477625827" type="System">
                     <param id="0" name="Variable">comboTimer</param>
                     <param id="1" name="Value">dt</param>
                 </action>
-                <action id="0" name="Set text" sid="687628537120588" type="TxtComboCount">
-                    <param id="0" name="Text">&quot;x&quot;&amp;comboCount</param>
+                <action id="3" name="Set progress" sid="706166284282535" type="ComboBar">
+                    <param id="0" name="Value">comboTimer</param>
                 </action>
             </actions>
             <sub-events>
@@ -102,9 +145,69 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="808600774541965" type="System">
-                            <param id="0" name="Variable">comboCount</param>
+                        <action id="-9" name="Set value" sid="849217951889652" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="512000687546458">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="394181942284296" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="579998336830521" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="362930131414742">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="538472225955347" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="343783459946907" type="ComboSprite">
+                            <param id="0" name="Animation">&quot;Love&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="508527278903899">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="490985402557541" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="903577069332271" type="ComboSprite">
+                            <param id="0" name="Animation">&quot;Unamazed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="283885070281993">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="366141567453686" type="System">
+                            <param id="0" name="Variable">comboTimer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="777914775105910" type="ComboSprite">
+                            <param id="0" name="Animation">&quot;Hype&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -178,13 +281,9 @@
                                             <param id="0" name="Name">&quot;GenerateRound&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
-                                        <action id="-10" name="Add to" sid="374286590776941" type="System">
-                                            <param id="0" name="Variable">comboCount</param>
-                                            <param id="1" name="Value">1</param>
-                                        </action>
-                                        <action id="-9" name="Set value" sid="977608222540341" type="System">
+                                        <action id="-10" name="Add to" sid="977608222540341" type="System">
                                             <param id="0" name="Variable">comboTimer</param>
-                                            <param id="1" name="Value">comboMaxTimer</param>
+                                            <param id="1" name="Value">2+(len(tempWord)/5)</param>
                                         </action>
                                         <action id="0" name="Call function" sid="517769169180861" type="Function">
                                             <param id="0" name="Name">&quot;ScoreUpdate&quot;</param>
@@ -220,9 +319,9 @@
                         <action id="0" name="Set text" sid="408672873615301" type="TxtFeedback">
                             <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
                         </action>
-                        <action id="-9" name="Set value" sid="571720392028773" type="System">
+                        <action id="-11" name="Subtract from" sid="571720392028773" type="System">
                             <param id="0" name="Variable">comboTimer</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">3</param>
                         </action>
                     </actions>
                 </event-block>
@@ -238,7 +337,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="401066239411720" type="System">
-                    <param id="0" name="Layout">Layout 2</param>
+                    <param id="0" name="Layout">Gameover</param>
                 </action>
             </actions>
         </event-block>
