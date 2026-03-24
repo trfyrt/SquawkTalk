@@ -341,5 +341,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="644161649718880">
+            <conditions>
+                <condition id="4" name="On finished" sid="121182345505646" type="Chirpy">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="374723556079054" type="Chirpy">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
