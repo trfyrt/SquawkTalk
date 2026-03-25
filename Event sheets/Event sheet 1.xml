@@ -213,10 +213,13 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="555123981429574">
+        <event-block any="1" sid="555123981429574">
             <conditions>
                 <condition id="0" name="On key pressed" sid="537966432622162" type="Keyboard">
                     <param id="0" name="Key">13</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="770318468302589" type="Keyboard">
+                    <param id="0" name="Key">32</param>
                 </condition>
             </conditions>
             <actions>
@@ -289,6 +292,10 @@
                                             <param id="0" name="Name">&quot;ScoreUpdate&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
+                                        <action id="4" name="Set animation" sid="358402782613806" type="Chirpy">
+                                            <param id="0" name="Animation">&quot;Happy&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -343,13 +350,14 @@
         </event-block>
         <event-block sid="644161649718880">
             <conditions>
-                <condition id="4" name="On finished" sid="121182345505646" type="Chirpy">
-                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                <condition id="4" name="On finished" sid="247189341300729" type="Chirpy">
+                    <param id="0" name="Animation">&quot;Happy&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="3" name="Start" sid="374723556079054" type="Chirpy">
-                    <param id="0" name="From">1</param>
+                <action id="4" name="Set animation" sid="374723556079054" type="Chirpy">
+                    <param id="0" name="Animation">&quot;Idle&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

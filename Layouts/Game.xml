@@ -32,18 +32,18 @@
                 <instance type="Chirpy" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Idle</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>437</x>
+                        <x>440</x>
                         <y>218</y>
                         <z>0</z>
-                        <width>282.014038086</width>
-                        <height>282.014068604</height>
+                        <width>256</width>
+                        <height>256</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -67,7 +67,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>360</x>
+                        <x>365</x>
                         <y>399</y>
                         <z>0</z>
                         <width>150</width>
@@ -92,7 +92,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>334</x>
+                        <x>340</x>
                         <y>359</y>
                         <z>0</z>
                         <width>200</width>
@@ -169,7 +169,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>358.75402832</x>
+                        <x>364.309814453</x>
                         <y>426.029602051</y>
                         <z>0</z>
                         <width>151.380401611</width>
@@ -190,8 +190,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>631.470825195</x>
-                        <y>32.82850647</y>
+                        <x>659.652832031</x>
+                        <y>22.828170776</y>
                         <z>0</z>
                         <width>200</width>
                         <height>25</height>
@@ -210,8 +210,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>799.583496094</x>
-                        <y>92.584281921</y>
+                        <x>826.857299805</x>
+                        <y>82.585334778</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>

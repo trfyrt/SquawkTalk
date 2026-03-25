@@ -27,8 +27,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>880</width>
+        <height>495</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -52,8 +52,7 @@
         <object-type name="Chirpy" sid="944435687998406">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698674079099491" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy1.png" />
+                <animation framecount="12" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="698674079099491" speed="10">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy3.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy4.png" />
@@ -76,6 +75,19 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy10.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy11.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy1.png" />
+                </animation>
+                <animation framecount="10" loop="0" name="Happy" pingpong="0" repeatcount="1" repeatto="0" sid="854685367483814" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy10.png" />
                 </animation>
             </animation-folder>
         </object-type>
