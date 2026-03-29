@@ -3,7 +3,7 @@
     <name>SquawkTalk</name>
     <description></description>
     <version>1.0.0.0</version>
-    <author></author>
+    <author>Trefy</author>
     <author-email></author-email>
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
@@ -16,7 +16,9 @@
         <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -97,9 +99,6 @@
         </object-type>
         <object-type name="InputBox" sid="955165457310208">
             <plugin id="TextBox" />
-        </object-type>
-        <object-type name="TxtLetters" sid="546293890736025">
-            <plugin id="Text" />
         </object-type>
         <object-type name="TxtTimer" sid="461167731260333">
             <plugin id="Text" />
@@ -186,7 +185,54 @@
         </object-type>
         <object-type name="TiledBackground" sid="945024211327109">
             <plugin id="TiledBg" />
-            <texture original-source="D:\Aseprite\Art\Background2.png" />
+            <texture original-source="D:\Aseprite\Art\Background.png" />
+        </object-type>
+        <object-type name="Mouse" sid="331522072579209">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="InputText" sid="286909784226914">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="TxtLetter" sid="130859827964471">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="ScoreBoard" sid="694317306700313">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="518787844659588" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Score_Board.png">
+                        <collision-poly>
+                            <point x="0.0833333" y="0.166667" />
+                            <point x="0.916667" y="0.166667" />
+                            <point x="1" y="0.5" />
+                            <point x="0.991667" y="0.983333" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00833333" y="0.983333" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TypingBoard" sid="869055570031308">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411139636815032" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Typing_Board.png">
+                        <collision-poly>
+                            <point x="0.0833333" y="0.166667" />
+                            <point x="0.916667" y="0.166667" />
+                            <point x="1" y="0.5" />
+                            <point x="0.991667" y="0.983333" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00833333" y="0.983333" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
@@ -203,6 +249,7 @@
         <global-instance type="AJAX" uid="5" />
         <global-instance type="Function" uid="7" />
         <global-instance type="Browser" uid="12" />
+        <global-instance type="Mouse" uid="18" />
     </global-instances>
     <sounds-folder />
     <music-folder />

@@ -35,14 +35,11 @@
                     <param id="0" name="Property name">&quot;outline&quot;</param>
                     <param id="1" name="Value">&quot;none&quot;</param>
                 </action>
-                <action id="7" name="Set CSS style" sid="567271617514420" type="InputBox">
-                    <param id="0" name="Property name">&quot;text-align&quot;</param>
-                    <param id="1" name="Value">&quot;center&quot;</param>
-                </action>
-                <action id="2" name="Set CSS style" sid="785542486659412" type="TimerBar">
+                <action id="7" name="Set CSS style" sid="507572239233160" type="InputBox">
                     <param id="0" name="Property name">&quot;color&quot;</param>
-                    <param id="1" name="Value">&quot;red&quot;</param>
+                    <param id="1" name="Value">&quot;transparent&quot;</param>
                 </action>
+                <action id="6" name="Set focused" sid="594988915238690" type="InputBox" />
             </actions>
         </event-block>
         <event-block sid="918292098335964">
@@ -72,8 +69,8 @@
                     <param id="0" name="Variable">requiredLetters</param>
                     <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;,&quot;ct&quot;)</param>
                 </action>
-                <action id="0" name="Set text" sid="186398481635618" type="TxtLetters">
-                    <param id="0" name="Text">requiredLetters</param>
+                <action id="0" name="Set text" sid="186398481635618" type="TxtLetter">
+                    <param id="0" name="Text">uppercase(requiredLetters)</param>
                 </action>
             </actions>
         </event-block>
@@ -153,6 +150,9 @@
                 </action>
                 <action id="3" name="Set progress" sid="706166284282535" type="ComboBar">
                     <param id="0" name="Value">comboTimer</param>
+                </action>
+                <action id="0" name="Set text" sid="612370948673906" type="InputText">
+                    <param id="0" name="Text">uppercase(InputBox.Text)</param>
                 </action>
             </actions>
             <sub-events>
@@ -379,6 +379,14 @@
                     <param id="0" name="Animation">&quot;Idle&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="315565164015088">
+            <conditions>
+                <condition id="1" name="On any click" sid="210739109685511" type="Mouse" />
+            </conditions>
+            <actions>
+                <action id="6" name="Set focused" sid="330551990218044" type="InputBox" />
             </actions>
         </event-block>
     </events>
