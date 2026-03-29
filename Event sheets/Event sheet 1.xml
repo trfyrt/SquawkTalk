@@ -23,6 +23,26 @@
                     <param id="1" name="Value">maxTimer</param>
                 </action>
                 <action id="3" name="Clear" sid="134977137151750" type="UsedWordDict" />
+                <action id="7" name="Set CSS style" sid="701695735766197" type="InputBox">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="590899294501193" type="InputBox">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="702022274275375" type="InputBox">
+                    <param id="0" name="Property name">&quot;outline&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="567271617514420" type="InputBox">
+                    <param id="0" name="Property name">&quot;text-align&quot;</param>
+                    <param id="1" name="Value">&quot;center&quot;</param>
+                </action>
+                <action id="2" name="Set CSS style" sid="785542486659412" type="TimerBar">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;red&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="918292098335964">
@@ -50,7 +70,7 @@
             <actions>
                 <action id="-9" name="Set value" sid="435234944330267" type="System">
                     <param id="0" name="Variable">requiredLetters</param>
-                    <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;)</param>
+                    <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;,&quot;ct&quot;)</param>
                 </action>
                 <action id="0" name="Set text" sid="186398481635618" type="TxtLetters">
                     <param id="0" name="Text">requiredLetters</param>

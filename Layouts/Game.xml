@@ -106,7 +106,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>374.916748047</x>
+                        <x>365</x>
                         <y>408.230255127</y>
                         <z>0</z>
                         <width>150</width>
@@ -131,10 +131,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>347.054351807</x>
+                        <x>395.785583496</x>
                         <y>378.089630127</y>
                         <z>0</z>
-                        <width>200</width>
+                        <width>88.428863525</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -208,11 +208,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>658.167114258</x>
-                        <y>84.960418701</y>
+                        <x>338.690429688</x>
+                        <y>435.37387085</y>
                         <z>0</z>
                         <width>202.619110107</width>
-                        <height>16.183349609</height>
+                        <height>13.702880859</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -229,8 +229,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>348.082794189</x>
-                        <y>434.397644043</y>
+                        <x>659.008911133</x>
+                        <y>86.464065552</y>
                         <z>0</z>
                         <width>200</width>
                         <height>14.25642395</height>
