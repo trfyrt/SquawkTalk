@@ -21,7 +21,6 @@
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors />
@@ -183,10 +182,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground" sid="945024211327109">
-            <plugin id="TiledBg" />
-            <texture original-source="D:\Aseprite\Art\Background.png" />
-        </object-type>
         <object-type name="Mouse" sid="331522072579209">
             <plugin id="Mouse" />
         </object-type>
@@ -231,6 +226,21 @@
                             <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background" sid="269652127134207">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background8.png" />
                 </animation>
             </animation-folder>
         </object-type>

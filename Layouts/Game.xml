@@ -29,22 +29,24 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="17">
+                <instance type="Background" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>0</y>
+                        <x>440.751678467</x>
+                        <y>247.752593994</y>
                         <z>0</z>
-                        <width>892.01953125</width>
-                        <height>508.146759033</height>
+                        <width>881.503356934</width>
+                        <height>496.502166748</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50101012</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

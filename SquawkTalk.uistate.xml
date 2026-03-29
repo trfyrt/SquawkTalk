@@ -34,5 +34,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ComboSprite/" />
         <folder expanded="1" path="animation-folder/ScoreBoard/" />
         <folder expanded="1" path="animation-folder/TypingBoard/" />
+        <folder expanded="1" path="animation-folder/Background/" />
     </folders-expanded>
 </c2uistate>
