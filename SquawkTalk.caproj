@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors />
@@ -182,6 +183,10 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="945024211327109">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Aseprite\Art\Background2.png" />
         </object-type>
     </object-folder>
     <families />
