@@ -10,10 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Game</layout>
-        <layout order="2">Gameover</layout>
-        <event-sheet order="3">Event sheet 1</event-sheet>
-        <event-sheet order="4">Event sheet 2</event-sheet>
+        <layout order="2">Game</layout>
+        <layout order="3">Gameover</layout>
+        <layout active="1" order="1">Layout 1</layout>
+        <event-sheet order="4">Event sheet 1</event-sheet>
+        <event-sheet order="5">Event sheet 2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -35,5 +36,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ScoreBoard/" />
         <folder expanded="1" path="animation-folder/TypingBoard/" />
         <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/Logo/" />
     </folders-expanded>
 </c2uistate>
