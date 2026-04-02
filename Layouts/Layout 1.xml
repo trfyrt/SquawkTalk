@@ -64,11 +64,11 @@
                         <x>440</x>
                         <y>191.598754883</y>
                         <z>0</z>
-                        <width>384</width>
-                        <height>384</height>
+                        <width>367.5</width>
+                        <height>193.5</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.504081607</hotspotX>
+                        <hotspotY>0.461240321</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

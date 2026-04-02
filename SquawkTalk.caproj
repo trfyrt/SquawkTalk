@@ -248,15 +248,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564481091119307" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Squawk Talk Logo.png">
+                    <frame duration="1" hotspotX="0.504082" hotspotY="0.46124" original-source="D:\Aseprite\Art\Squawk Talk Logo.png">
                         <collision-poly>
-                            <point x="0.300781" y="0.300781" />
-                            <point x="0.5" y="0.324219" />
-                            <point x="0.691406" y="0.308594" />
-                            <point x="0.964844" y="0.5" />
-                            <point x="0.769531" y="0.769531" />
-                            <point x="0.253906" y="0.746094" />
-                            <point x="0.0390625" y="0.5" />
+                            <point x="0.295918" y="0.065891" />
+                            <point x="0.504082" y="0.112404" />
+                            <point x="0.704081" y="0.0813958" />
+                            <point x="0.989796" y="0.46124" />
+                            <point x="0.785714" y="0.996124" />
+                            <point x="0.246939" y="0.949613" />
+                            <point x="0.022449" y="0.46124" />
                         </collision-poly>
                     </frame>
                 </animation>
