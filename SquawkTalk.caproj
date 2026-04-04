@@ -120,14 +120,11 @@
         <object-type name="TxtGameOver" sid="534750532933667">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Button" sid="938928035058723">
+        <object-type name="Replay" sid="938928035058723">
             <plugin id="Button" />
         </object-type>
         <object-type name="Browser" sid="499043685161286">
             <plugin id="Browser" />
-        </object-type>
-        <object-type name="TxtTotalScore" sid="995437746358969">
-            <plugin id="Text" />
         </object-type>
         <object-type name="TimerBar" sid="488722879022993">
             <plugin id="progressbar" />
@@ -187,11 +184,11 @@
         </object-type>
         <object-type name="InputText" sid="286909784226914">
             <plugin id="Spritefont2" />
-            <texture />
+            <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="TxtLetter" sid="130859827964471">
             <plugin id="Spritefont2" />
-            <texture />
+            <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="ScoreBoard" sid="694317306700313">
             <plugin id="Sprite" />
@@ -261,6 +258,17 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TxtHighscore" sid="755995363873232">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TxtTotalScore" sid="654141646839345">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\Aseprite\Art\spritefont.png" />
+        </object-type>
+        <object-type name="Score" sid="732981497103433">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
     </object-folder>
     <families />

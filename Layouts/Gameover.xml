@@ -31,7 +31,7 @@
             <instances>
                 <instance type="TxtGameOver" uid="10">
                     <properties>
-                        <text>GAME OVER</text>
+                        <text>TIME&apos;S UP</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -44,8 +44,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>327</x>
-                        <y>225</y>
+                        <x>340</x>
+                        <y>171.656692505</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -56,7 +56,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Button" uid="11">
+                <instance type="Replay" uid="11">
                     <properties>
                         <type>Button</type>
                         <text>Play Again</text>
@@ -70,7 +70,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>391</x>
+                        <x>404</x>
                         <y>317</y>
                         <z>0</z>
                         <width>72</width>
@@ -80,9 +80,9 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="TxtTotalScore" uid="13">
+                <instance type="TxtHighscore" uid="25">
                     <properties>
-                        <text>Score: </text>
+                        <text>Highscore: </text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -95,8 +95,68 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>327</x>
-                        <y>256</y>
+                        <x>340</x>
+                        <y>272.101806641</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TxtTotalScore" uid="24">
+                    <properties>
+                        <character-width>16</character-width>
+                        <character-height>16</character-height>
+                        <character-set>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;</character-set>
+                        <text>0</text>
+                        <scale>1</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>-4</character-spacing>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>472.079681396</x>
+                        <y>253.48626709</y>
+                        <z>0</z>
+                        <width>154.16998291</width>
+                        <height>28.49899292</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Score" uid="27">
+                    <properties>
+                        <character-width>16</character-width>
+                        <character-height>16</character-height>
+                        <character-set>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;</character-set>
+                        <text>Score:</text>
+                        <scale>1</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>-4</character-spacing>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>400.705871582</x>
+                        <y>251.984100342</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>

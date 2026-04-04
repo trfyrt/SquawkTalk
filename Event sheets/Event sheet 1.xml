@@ -4,7 +4,7 @@
     <name>Event sheet 1</name>
     <events>
         <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">0</variable>
-        <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
+        <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">10</variable>
         <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
         <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
         <variable constant="0" name="requiredLetters" sid="476791068826612" static="0" type="text"></variable>
@@ -67,7 +67,7 @@
             <actions>
                 <action id="-9" name="Set value" sid="435234944330267" type="System">
                     <param id="0" name="Variable">requiredLetters</param>
-                    <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;,&quot;ct&quot;)</param>
+                    <param id="1" name="Value">choose(&quot;ka&quot;,&quot;ma&quot;,&quot;an&quot;,&quot;la&quot;,&quot;ra&quot;,&quot;ta&quot;,&quot;ch&quot;,&quot;fu&quot;,&quot;ct&quot;, &quot;tr&quot;, &quot;gh&quot;, &quot;lk&quot;, &quot;st&quot;)</param>
                 </action>
                 <action id="0" name="Set text" sid="186398481635618" type="TxtLetter">
                     <param id="0" name="Text">uppercase(requiredLetters)</param>
@@ -95,6 +95,9 @@
                             <param id="0" name="Variable">totalScore</param>
                             <param id="1" name="Value">len(tempWord)*2</param>
                         </action>
+                        <action id="0" name="Set text" sid="989553050796636" type="TxtTotalScore">
+                            <param id="0" name="Text">totalScore</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="574024807996362">
@@ -110,6 +113,9 @@
                             <param id="0" name="Variable">totalScore</param>
                             <param id="1" name="Value">len(tempWord)*5</param>
                         </action>
+                        <action id="0" name="Set text" sid="604974559884460" type="TxtTotalScore">
+                            <param id="0" name="Text">totalScore</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="332459018816381">
@@ -124,6 +130,9 @@
                         <action id="-10" name="Add to" sid="187042785798151" type="System">
                             <param id="0" name="Variable">totalScore</param>
                             <param id="1" name="Value">len(tempWord)*10</param>
+                        </action>
+                        <action id="0" name="Set text" sid="984475398003697" type="TxtTotalScore">
+                            <param id="0" name="Text">totalScore</param>
                         </action>
                     </actions>
                 </event-block>

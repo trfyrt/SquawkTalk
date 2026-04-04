@@ -3,24 +3,71 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 2</name>
     <events>
+        <variable constant="0" name="totalScoreTemp" sid="844645676539388" static="0" type="number">0</variable>
+        <variable constant="0" name="highScore" sid="940216682539975" static="0" type="number">0</variable>
         <include>Event sheet 1</include>
+        <event-block sid="697502562320715">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="677473987114544" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="168664891315370" type="System">
+                    <param id="0" name="Variable">totalScoreTemp</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="362770894247925">
             <conditions>
-                <condition id="0" name="On clicked" sid="436471994503708" type="Button" />
+                <condition id="0" name="On clicked" sid="436471994503708" type="Replay" />
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="869117907879794" type="System">
                     <param id="0" name="Layout">Game</param>
                 </action>
+                <action id="-9" name="Set value" sid="610520519977106" type="System">
+                    <param id="0" name="Variable">totalScore</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="449286159215875" type="System">
+                    <param id="0" name="Variable">comboTimer</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="120399644958597">
+        <event-block sid="261096195492686">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="326526106830410" type="System" />
+                <condition id="-14" name="Compare variable" sid="877193107309776" type="System">
+                    <param id="0" name="Variable">totalScore</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">highScore</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="634221359280141" type="TxtTotalScore">
-                    <param id="0" name="Text">&quot;Score: &quot;&amp;totalScore</param>
+                <action id="-9" name="Set value" sid="907961809697594" type="System">
+                    <param id="0" name="Variable">highScore</param>
+                    <param id="1" name="Value">totalScore</param>
+                </action>
+                <action id="0" name="Set text" sid="376369656243414" type="TxtHighscore">
+                    <param id="0" name="Text">&quot;highScore: &quot;&amp;highScore</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="254911584186742">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="503439586077522" type="System">
+                    <param id="0" name="Variable">totalScoreTemp</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">totalScore</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="789249603372318" type="System">
+                    <param id="0" name="Variable">totalScoreTemp</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="369474061788009" type="TxtTotalScore">
+                    <param id="0" name="Text">totalScoreTemp</param>
                 </action>
             </actions>
         </event-block>
