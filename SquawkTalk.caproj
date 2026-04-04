@@ -270,6 +270,9 @@
             <plugin id="Spritefont2" />
             <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
+        <object-type name="Play" sid="883069141143036">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

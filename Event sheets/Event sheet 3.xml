@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
-    <events />
+    <events>
+        <event-block sid="586819834595750">
+            <conditions>
+                <condition id="0" name="On clicked" sid="112392233326489" type="Play" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="361930112140757" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
