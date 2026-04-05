@@ -229,15 +229,20 @@
         <object-type name="Background" sid="269652127134207">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="8" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="4">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background8.png" />
+                <animation framecount="13" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background13.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -272,6 +277,26 @@
         </object-type>
         <object-type name="Play" sid="883069141143036">
             <plugin id="Button" />
+        </object-type>
+        <object-type name="Background2" sid="159514916638828">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="13" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624082702026147" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background13.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

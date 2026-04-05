@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Background" uid="22">
+                <instance type="Background2" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>440.751678467</x>
-                        <y>247.752593994</y>
+                        <x>440</x>
+                        <y>247.5</y>
                         <z>0</z>
-                        <width>881.503356934</width>
-                        <height>496.502166748</height>
+                        <width>880</width>
+                        <height>495</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50101012</hotspotY>
