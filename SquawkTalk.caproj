@@ -23,7 +23,9 @@
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -229,7 +231,7 @@
         <object-type name="Background" sid="269652127134207">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="13" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="4">
+                <animation framecount="13" loop="0" name="TwoL" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="3">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background3.png" />
@@ -244,10 +246,48 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background12.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background13.png" />
                 </animation>
+                <animation framecount="13" loop="0" name="OneL" pingpong="0" repeatcount="1" repeatto="0" sid="214082854837423" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background13.png" />
+                </animation>
+                <animation framecount="13" loop="0" name="ZeroL" pingpong="0" repeatcount="1" repeatto="0" sid="141966452034619" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background13.png" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Logo" sid="152582492866656">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="YMovement" sid="162409960331149">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Scale" sid="580812244743677">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564481091119307" speed="5">
                     <frame duration="1" hotspotX="0.504082" hotspotY="0.46124" original-source="D:\Aseprite\Art\Squawk Talk Logo.png">
@@ -281,7 +321,7 @@
         <object-type name="Background2" sid="159514916638828">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="13" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624082702026147" speed="4">
+                <animation framecount="13" loop="0" name="TwoL" pingpong="0" repeatcount="1" repeatto="0" sid="624082702026147" speed="3">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background3.png" />
@@ -296,14 +336,59 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background12.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background13.png" />
                 </animation>
+                <animation framecount="13" loop="0" name="OneL" pingpong="0" repeatcount="1" repeatto="0" sid="698471039219086" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background13.png" />
+                </animation>
+                <animation framecount="13" loop="0" name="ZeroL" pingpong="0" repeatcount="1" repeatto="0" sid="794685787960457" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background13.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="934370447419408">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite" sid="155201373960093">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="490655540629646" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="hover" pingpong="0" repeatcount="1" repeatto="0" sid="581614329977970" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
             </animation-folder>
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
+        <layout>Layout 1.xml</layout>
         <layout>Game.xml</layout>
         <layout>Gameover.xml</layout>
-        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>

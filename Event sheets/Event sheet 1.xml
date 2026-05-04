@@ -4,7 +4,7 @@
     <name>Event sheet 1</name>
     <events>
         <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">0</variable>
-        <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">10</variable>
+        <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
         <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>
         <variable constant="0" name="totalScore" sid="529834606126266" static="0" type="number">0</variable>
         <variable constant="0" name="requiredLetters" sid="476791068826612" static="0" type="text"></variable>
@@ -396,6 +396,17 @@
             </conditions>
             <actions>
                 <action id="6" name="Set focused" sid="330551990218044" type="InputBox" />
+            </actions>
+        </event-block>
+        <event-block sid="823615861884289">
+            <conditions>
+                <condition id="5" name="On any finished" sid="191739929897050" type="Background2" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="256327901076710" type="Background2">
+                    <param id="0" name="Animation">choose(&quot;TwoL&quot;,&quot;OneL&quot;,&quot;ZeroL&quot;)</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
