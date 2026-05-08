@@ -66,7 +66,7 @@
         </event-block>
         <event-block sid="338805250994777">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="257757707839833" type="System" />
+                <condition id="-25" name="On loader layout complete" sid="257757707839833" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="274779920004736" type="Audio">
