@@ -64,5 +64,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="338805250994777">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="257757707839833" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="274779920004736" type="Audio">
+                    <param id="0" name="Audio file">Furin Summer Loop</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

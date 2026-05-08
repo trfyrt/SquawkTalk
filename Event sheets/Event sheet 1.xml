@@ -392,7 +392,11 @@
         </event-block>
         <event-block sid="315565164015088">
             <conditions>
-                <condition id="1" name="On any click" sid="210739109685511" type="Mouse" />
+                <condition id="6" name="On object clicked" sid="210739109685511" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Background2</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="6" name="Set focused" sid="330551990218044" type="InputBox" />
