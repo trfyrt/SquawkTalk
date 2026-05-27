@@ -18,7 +18,7 @@
                 <condition id="6" name="On object clicked" sid="265367133388947" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Sprite</param>
+                    <param id="2" name="Object clicked">PlayBtn</param>
                 </condition>
             </conditions>
             <actions>
@@ -30,11 +30,11 @@
         <event-block sid="262132360816293">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="952478847428443" type="Mouse">
-                    <param id="0" name="Object">Sprite</param>
+                    <param id="0" name="Object">PlayBtn</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="593396760885334" type="Sprite">
+                <action id="4" name="Set animation" sid="593396760885334" type="PlayBtn">
                     <param id="0" name="Animation">&quot;hover&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -43,11 +43,11 @@
         <event-block sid="560269287215433">
             <conditions>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="380411851644686" type="Mouse">
-                    <param id="0" name="Object">Sprite</param>
+                    <param id="0" name="Object">PlayBtn</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="238871968823935" type="Sprite">
+                <action id="4" name="Set animation" sid="238871968823935" type="PlayBtn">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -64,7 +64,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="338805250994777">
+        <event-block disabled="1" sid="338805250994777">
             <conditions>
                 <condition id="-25" name="On loader layout complete" sid="257757707839833" type="System" />
             </conditions>

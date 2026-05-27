@@ -373,14 +373,36 @@
             <plugin id="Spritefont2" />
             <texture />
         </object-type>
-        <object-type name="Sprite" sid="155201373960093">
+        <object-type name="PlayBtn" sid="155201373960093">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="490655540629646" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_normal.png">
+                        <collision-poly>
+                            <point x="0.025641" y="0.08" />
+                            <point x="0.5" y="0" />
+                            <point x="0.974359" y="0.08" />
+                            <point x="1" y="0.5" />
+                            <point x="0.987179" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0128205" y="0.96" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="hover" pingpong="0" repeatcount="1" repeatto="0" sid="581614329977970" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_hover.png">
+                        <collision-poly>
+                            <point x="0.0384615" y="0.12" />
+                            <point x="0.5" y="0.08" />
+                            <point x="0.961538" y="0.12" />
+                            <point x="1" y="0.5" />
+                            <point x="0.974359" y="0.92" />
+                            <point x="0.5" y="1" />
+                            <point x="0.025641" y="0.92" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
