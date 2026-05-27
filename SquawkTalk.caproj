@@ -25,6 +25,8 @@
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
@@ -127,9 +129,6 @@
         </object-type>
         <object-type global="1" name="UsedWordDict" sid="327268920562787">
             <plugin id="Dictionary" />
-        </object-type>
-        <object-type name="TxtFeedback" sid="577359274656514">
-            <plugin id="Text" />
         </object-type>
         <object-type name="TxtGameOver" sid="534750532933667">
             <plugin id="Text" />
@@ -370,9 +369,17 @@
         <object-type name="Play" sid="883069141143036">
             <plugin id="Button" />
         </object-type>
-        <object-type name="SpriteFont" sid="934370447419408">
+        <object-type name="TxtFeedbackRight" sid="934370447419408">
             <plugin id="Spritefont2" />
-            <texture />
+            <behaviors>
+                <behavior-type name="Bullet" sid="111275329536334">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="136390224493899">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\Aseprite\Art\spritefont_correct.png" />
         </object-type>
         <object-type name="PlayBtn" sid="155201373960093">
             <plugin id="Sprite" />
@@ -428,6 +435,30 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TxtFeedbackWrong" sid="794186683430777">
+            <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="625552419073706">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="238447419277090">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\Aseprite\Art\spritefont_wrong.png" />
+        </object-type>
+        <object-type name="TxtFeedbackAware" sid="421125835450809">
+            <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="183529855462502">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="723219178610157">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\Aseprite\Art\spritefont_aware.png" />
         </object-type>
     </object-folder>
     <families />

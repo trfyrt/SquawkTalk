@@ -337,11 +337,20 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set font color" sid="442607061610731" type="TxtFeedback">
-                                            <param id="0" name="Color">rgb(127, 255, 0)</param>
+                                        <action id="-3" name="Create object" sid="438681797466451" type="System">
+                                            <param id="0" name="Object to create">TxtFeedbackAware</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="X">Chirpy.X+choose(random(-70, -120), random(70, 120))</param>
+                                            <param id="3" name="Y">Chirpy.Y+random(50,100)</param>
                                         </action>
-                                        <action id="0" name="Set text" sid="271128176515901" type="TxtFeedback">
-                                            <param id="0" name="Text">&quot;Chirp already know!&quot;</param>
+                                        <action id="0" name="Set text" sid="427058462218849" type="TxtFeedbackAware">
+                                            <param id="0" name="Text">choose(&quot;yeaa..&quot;,&quot;ik that already&quot;,&quot;..uhh&quot;,&quot;umm...&quot;)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="549220169817722" type="TxtFeedbackAware">
+                                            <param id="0" name="Speed">random(70, 90)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="787772349411577" type="TxtFeedbackAware">
+                                            <param id="0" name="Angle">270</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -354,11 +363,20 @@
                                             <param id="0" name="Key">tempWord</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="4" name="Set font color" sid="576095006499577" type="TxtFeedback">
-                                            <param id="0" name="Color">rgb(0, 255, 0)</param>
+                                        <action id="-3" name="Create object" sid="830495599622290" type="System">
+                                            <param id="0" name="Object to create">TxtFeedbackRight</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="X">Chirpy.X+choose(random(-50, -100), random(50, 100))</param>
+                                            <param id="3" name="Y">Chirpy.Y+random(50,100)</param>
                                         </action>
-                                        <action id="0" name="Set text" sid="230462969336110" type="TxtFeedback">
-                                            <param id="0" name="Text">tempWord&amp;&quot;!&quot;</param>
+                                        <action id="0" name="Set text" sid="607111401214030" type="TxtFeedbackRight">
+                                            <param id="0" name="Text">uppercase(tempWord&amp;&quot;!&quot;)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="700843625935348" type="TxtFeedbackRight">
+                                            <param id="0" name="Angle">270</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="772697365718023" type="TxtFeedbackRight">
+                                            <param id="0" name="Speed">random(70, 90)</param>
                                         </action>
                                         <action id="0" name="Call function" sid="238511899764546" type="Function">
                                             <param id="0" name="Name">&quot;GenerateRound&quot;</param>
@@ -385,11 +403,20 @@
                                 <condition id="-22" name="Else" sid="876534233830453" type="System" />
                             </conditions>
                             <actions>
-                                <action id="4" name="Set font color" sid="154447183212778" type="TxtFeedback">
-                                    <param id="0" name="Color">rgb(255, 0, 0)</param>
+                                <action id="-3" name="Create object" sid="491575558696075" type="System">
+                                    <param id="0" name="Object to create">TxtFeedbackWrong</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">Chirpy.X+choose(random(-50, -100), random(50, 100))</param>
+                                    <param id="3" name="Y">Chirpy.Y+random(50,100)</param>
                                 </action>
-                                <action id="0" name="Set text" sid="466182778615391" type="TxtFeedback">
-                                    <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
+                                <action id="0" name="Set text" sid="471464944458005" type="TxtFeedbackWrong">
+                                    <param id="0" name="Text">uppercase(tempWord&amp;&quot;?&quot;)</param>
+                                </action>
+                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="885403885778049" type="TxtFeedbackWrong">
+                                    <param id="0" name="Angle">270</param>
+                                </action>
+                                <action behavior="Bullet" id="0" name="Set speed" sid="127193360163904" type="TxtFeedbackWrong">
+                                    <param id="0" name="Speed">random(70, 90)</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -400,15 +427,24 @@
                         <condition id="-22" name="Else" sid="491129652224043" type="System" />
                     </conditions>
                     <actions>
-                        <action id="4" name="Set font color" sid="825195307249480" type="TxtFeedback">
-                            <param id="0" name="Color">rgb(255, 0, 0)</param>
-                        </action>
-                        <action id="0" name="Set text" sid="408672873615301" type="TxtFeedback">
-                            <param id="0" name="Text">tempWord&amp;&quot;?&quot;</param>
-                        </action>
                         <action id="-11" name="Subtract from" sid="571720392028773" type="System">
                             <param id="0" name="Variable">comboTimer</param>
                             <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="124180061922773" type="System">
+                            <param id="0" name="Object to create">TxtFeedbackWrong</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">Chirpy.X+choose(random(-50, -100), random(50, 100))</param>
+                            <param id="3" name="Y">Chirpy.Y+random(50,100)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="572390246216345" type="TxtFeedbackWrong">
+                            <param id="0" name="Text">uppercase(tempWord&amp;&quot;?&quot;)</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="276671323476876" type="TxtFeedbackWrong">
+                            <param id="0" name="Angle">270</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="171197092294081" type="TxtFeedbackWrong">
+                            <param id="0" name="Speed">random(70, 90)</param>
                         </action>
                     </actions>
                 </event-block>
