@@ -352,6 +352,10 @@
                                         <action behavior="Bullet" id="3" name="Set angle of motion" sid="787772349411577" type="TxtFeedbackAware">
                                             <param id="0" name="Angle">270</param>
                                         </action>
+                                        <action id="4" name="Set animation" sid="832908876491244" type="Chirpy">
+                                            <param id="0" name="Animation">&quot;Confused&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="406302580306653">
@@ -418,6 +422,10 @@
                                 <action behavior="Bullet" id="0" name="Set speed" sid="127193360163904" type="TxtFeedbackWrong">
                                     <param id="0" name="Speed">random(70, 90)</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="154386404219725" type="Chirpy">
+                                    <param id="0" name="Animation">&quot;Confused&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -446,6 +454,10 @@
                         <action behavior="Bullet" id="0" name="Set speed" sid="171197092294081" type="TxtFeedbackWrong">
                             <param id="0" name="Speed">random(70, 90)</param>
                         </action>
+                        <action id="4" name="Set animation" sid="199156826790342" type="Chirpy">
+                            <param id="0" name="Animation">&quot;Confused&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -466,9 +478,7 @@
         </event-block>
         <event-block sid="644161649718880">
             <conditions>
-                <condition id="4" name="On finished" sid="247189341300729" type="Chirpy">
-                    <param id="0" name="Animation">&quot;Happy&quot;</param>
-                </condition>
+                <condition id="5" name="On any finished" sid="247189341300729" type="Chirpy" />
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="374723556079054" type="Chirpy">

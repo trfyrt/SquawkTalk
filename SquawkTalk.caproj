@@ -102,6 +102,21 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy9.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy10.png" />
                 </animation>
+                <animation framecount="13" loop="0" name="Confused" pingpong="0" repeatcount="1" repeatto="0" sid="959652085382565" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused13.png" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Keyboard" sid="434137260436750">
