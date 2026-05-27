@@ -25,6 +25,7 @@
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
     <used-effects />
@@ -56,6 +57,11 @@
     <object-folder>
         <object-type name="Chirpy" sid="944435687998406">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="359453015214868">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="12" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="698674079099491" speed="10">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy2.png" />
@@ -101,6 +107,11 @@
         </object-type>
         <object-type name="InputBox" sid="955165457310208">
             <plugin id="TextBox" />
+            <behaviors>
+                <behavior-type name="Pin" sid="743435416015806">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
         <object-type name="TxtTimer" sid="461167731260333">
             <plugin id="Text" />
@@ -131,12 +142,27 @@
         </object-type>
         <object-type name="TimerBar" sid="488722879022993">
             <plugin id="progressbar" />
+            <behaviors>
+                <behavior-type name="Pin" sid="566939990786098">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
         <object-type name="ComboBar" sid="996573131383457">
             <plugin id="progressbar" />
+            <behaviors>
+                <behavior-type name="Pin" sid="155699728212639">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
         <object-type name="ComboSprite" sid="408646784049011">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="176112375120457">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Unamazed" pingpong="0" repeatcount="1" repeatto="0" sid="704034420682311" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo2.png">
@@ -187,10 +213,20 @@
         </object-type>
         <object-type name="InputText" sid="286909784226914">
             <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Pin" sid="684326686266274">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="TxtLetter" sid="130859827964471">
             <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Pin" sid="146236579600203">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="ScoreBoard" sid="694317306700313">
@@ -213,6 +249,11 @@
         </object-type>
         <object-type name="TypingBoard" sid="869055570031308">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="628660358098927">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411139636815032" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Typing_Board.png">
@@ -310,64 +351,24 @@
         </object-type>
         <object-type name="TxtTotalScore" sid="654141646839345">
             <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Pin" sid="214529056428985">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="Score" sid="732981497103433">
             <plugin id="Spritefont2" />
+            <behaviors>
+                <behavior-type name="Pin" sid="984260436572371">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="D:\Aseprite\Art\spritefont.png" />
         </object-type>
         <object-type name="Play" sid="883069141143036">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="Background2" sid="159514916638828">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="13" loop="0" name="TwoL" pingpong="0" repeatcount="1" repeatto="0" sid="624082702026147" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Background13.png" />
-                </animation>
-                <animation framecount="13" loop="0" name="OneL" pingpong="0" repeatcount="1" repeatto="0" sid="698471039219086" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\OneL\Background13.png" />
-                </animation>
-                <animation framecount="13" loop="0" name="ZeroL" pingpong="0" repeatcount="1" repeatto="0" sid="794685787960457" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\GameBg\ZeroL\Background13.png" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="SpriteFont" sid="934370447419408">
             <plugin id="Spritefont2" />
@@ -408,6 +409,25 @@
         </object-type>
         <object-type name="Audio" sid="925383149452700">
             <plugin id="Audio" />
+        </object-type>
+        <object-type name="Hand" sid="574414784278438">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816922496677705" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyStand.png">
+                        <collision-poly>
+                            <point x="0.141935" y="0.275" />
+                            <point x="0.5" y="0.0125" />
+                            <point x="0.980645" y="0.0375" />
+                            <point x="0.722581" y="0.5" />
+                            <point x="0.632258" y="0.2875" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.0451613" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

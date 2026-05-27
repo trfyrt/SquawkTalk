@@ -40,6 +40,57 @@
                     <param id="1" name="Value">&quot;transparent&quot;</param>
                 </action>
                 <action id="6" name="Set focused" sid="594988915238690" type="InputBox" />
+                <action behavior="Pin" id="0" name="Pin to object" sid="789021275681993" type="Chirpy">
+                    <param id="0" name="Pin to">Hand</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action id="-2" name="Set Y" sid="675071107803806" type="Hand">
+                    <param id="0" name="Y">745</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="577292912221457" type="ComboSprite">
+                    <param id="0" name="Pin to">ScoreBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="955413865367681" type="Score">
+                    <param id="0" name="Pin to">ScoreBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="216700654082780" type="TxtTotalScore">
+                    <param id="0" name="Pin to">ScoreBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="910250822965336" type="ComboBar">
+                    <param id="0" name="Pin to">ScoreBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="332417458227814" type="InputText">
+                    <param id="0" name="Pin to">TypingBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="545437180665763" type="TxtLetter">
+                    <param id="0" name="Pin to">TypingBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="524589505339384" type="TimerBar">
+                    <param id="0" name="Pin to">TypingBoard</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="955327117360687">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="503977238618688" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="579837174159112" type="Hand">
+                    <param id="0" name="Y">lerp(Self.Y, 415, 0.01)</param>
+                </action>
+                <action id="-2" name="Set Y" sid="367181785300898" type="ScoreBoard">
+                    <param id="0" name="Y">lerp(Self.Y, 62.152, 0.01)</param>
+                </action>
+                <action id="-2" name="Set Y" sid="736943338225269" type="TypingBoard">
+                    <param id="0" name="Y">lerp(Self.Y, 413.746, 0.05)</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="918292098335964">
@@ -392,22 +443,18 @@
         </event-block>
         <event-block sid="315565164015088">
             <conditions>
-                <condition id="6" name="On object clicked" sid="210739109685511" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Background2</param>
-                </condition>
+                <condition id="1" name="On any click" sid="858630834458877" type="Mouse" />
             </conditions>
             <actions>
                 <action id="6" name="Set focused" sid="330551990218044" type="InputBox" />
             </actions>
         </event-block>
-        <event-block sid="823615861884289">
+        <event-block sid="656594541453188">
             <conditions>
-                <condition id="5" name="On any finished" sid="191739929897050" type="Background2" />
+                <condition id="5" name="On any finished" sid="289612481904782" type="Background" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="256327901076710" type="Background2">
+                <action id="4" name="Set animation" sid="170180746062393" type="Background">
                     <param id="0" name="Animation">choose(&quot;TwoL&quot;,&quot;OneL&quot;,&quot;ZeroL&quot;)</param>
                     <param id="1" name="From">1</param>
                 </action>
