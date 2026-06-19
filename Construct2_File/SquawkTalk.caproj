@@ -6,7 +6,7 @@
     <author>Trefy</author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>com.trfyrtgame.squawktalk</app-id>
     <unique-id>19s6zwurs22rb</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
@@ -48,8 +48,8 @@
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
-        <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Any</prop>
+        <prop name="Loader style">Nothing (not recommended)</prop>
+        <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
@@ -564,12 +564,13 @@
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
+            <file name="icon.png" />
             <file name="icon-16.png" />
             <file name="icon-32.png" />
             <file name="icon-114.png" />
             <file name="icon-128.png" />
-            <file name="icon-256.png" />
             <file name="loading-logo.png" />
+            <file name="icon-256.png" />
         </file-folder>
         <file name="dictionary.json" />
     </files-folder>

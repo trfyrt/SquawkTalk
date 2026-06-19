@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+        <layout active="1" order="1">Loader</layout>
         <layout order="2">Layout 1</layout>
         <layout order="3">Game</layout>
         <layout order="4">Gameover</layout>
-        <layout active="1" order="1">Loader</layout>
         <event-sheet order="5">Event sheet 1</event-sheet>
         <event-sheet order="6">Event sheet 2</event-sheet>
         <event-sheet order="7">Event sheet 3</event-sheet>
@@ -27,13 +27,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Chirpy/" />
         <folder expanded="1" path="animation-folder/ComboSprite/" />
         <folder expanded="1" path="animation-folder/ScoreBoard/" />

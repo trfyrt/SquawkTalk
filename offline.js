@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1779890469,
+	"version": 1781861866,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -24,14 +24,19 @@
 		"images/hand-sheet0.png",
 		"images/txtfeedbackwrong.png",
 		"images/txtfeedbackaware.png",
+		"images/loadingbg-sheet0.png",
+		"images/chirpyloadingicon-sheet0.png",
+		"images/chirpyloadingicon-sheet1.png",
+		"images/loadingtxt.png",
 		"media/furin summer loop.m4a",
 		"media/furin summer loop.ogg",
+		"icon.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
 		"icon-128.png",
-		"icon-256.png",
 		"loading-logo.png",
+		"icon-256.png",
 		"dictionary.json"
 	]
 }
