@@ -344,7 +344,7 @@
                                             <param id="3" name="Y">Chirpy.Y+random(50,100)</param>
                                         </action>
                                         <action id="0" name="Set text" sid="427058462218849" type="TxtFeedbackAware">
-                                            <param id="0" name="Text">choose(&quot;yeaa..&quot;,&quot;ik that already&quot;,&quot;..uhh&quot;,&quot;umm...&quot;)</param>
+                                            <param id="0" name="Text">choose(&quot;yeaa..&quot;,&quot;knew that&quot;,&quot;..uhh&quot;,&quot;umm...&quot;)</param>
                                         </action>
                                         <action behavior="Bullet" id="0" name="Set speed" sid="549220169817722" type="TxtFeedbackAware">
                                             <param id="0" name="Speed">random(70, 90)</param>

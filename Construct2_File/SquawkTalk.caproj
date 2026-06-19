@@ -40,7 +40,8 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <use-loader-layout>0</use-loader-layout>
+    <first-layout>Loader</first-layout>
+    <use-loader-layout>1</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
@@ -475,17 +476,65 @@
             </behaviors>
             <texture original-source="D:\Aseprite\Art\spritefont_aware.png" />
         </object-type>
+        <object-type name="Loadingbg" sid="435079399633102">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437388137704801" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ChirpyLoadingIcon" sid="139686044516945">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790289504073185" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy1.png">
+                        <collision-poly>
+                            <point x="0.375" y="0.375" />
+                            <point x="0.5" y="0.265625" />
+                            <point x="0.78125" y="0.21875" />
+                            <point x="0.703125" y="0.5" />
+                            <point x="0.671875" y="0.671875" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.328125" y="0.671875" />
+                            <point x="0.296875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy2.png">
+                        <collision-poly>
+                            <point x="0.359375" y="0.359375" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.78125" y="0.21875" />
+                            <point x="0.671875" y="0.671875" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.328125" y="0.671875" />
+                            <point x="0.28125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LoadingTxt" sid="398443022633732">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
+        </object-type>
+        <object-type name="LoadingProgressTxt" sid="758751920220420">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
         <layout>Game.xml</layout>
         <layout>Gameover.xml</layout>
+        <layout>Loader.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>LoaderEvent.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />

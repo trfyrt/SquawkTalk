@@ -10,12 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Layout 1</layout>
-        <layout order="2">Game</layout>
-        <layout order="3">Gameover</layout>
-        <event-sheet active="1" order="4">Event sheet 1</event-sheet>
-        <event-sheet order="5">Event sheet 2</event-sheet>
-        <event-sheet order="6">Event sheet 3</event-sheet>
+        <layout order="2">Layout 1</layout>
+        <layout order="3">Game</layout>
+        <layout order="4">Gameover</layout>
+        <layout active="1" order="1">Loader</layout>
+        <event-sheet order="5">Event sheet 1</event-sheet>
+        <event-sheet order="6">Event sheet 2</event-sheet>
+        <event-sheet order="7">Event sheet 3</event-sheet>
+        <event-sheet order="8">LoaderEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -40,5 +42,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Logo/" />
         <folder expanded="1" path="animation-folder/PlayBtn/" />
         <folder expanded="1" path="animation-folder/Hand/" />
+        <folder expanded="1" path="animation-folder/Loadingbg/" />
+        <folder expanded="1" path="animation-folder/ChirpyLoadingIcon/" />
     </folders-expanded>
 </c2uistate>
