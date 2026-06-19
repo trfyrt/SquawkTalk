@@ -20,6 +20,16 @@
 
 ---
 
+# 🎮 Play Now
+
+**Play SquawkTalk in your browser:**  
+👉 **[Play Here](https://squawk-talk.vercel.app/)**
+
+_No download required._
+
+
+---
+
 # 🦜 Key Features
 - **Syllable-Based Prompts:** The parrot gives you a specific syllable (e.g., "TR"). You must quickly type a word containing it (e.g., "TRACK", "STRAY", "ULTRA").
 - **The 60-Second Blitz:** A perfect "coffee-break" game. Short, addictive sessions that keep you coming back for a higher score.
