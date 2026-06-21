@@ -58,68 +58,425 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Chirpy" sid="944435687998406">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="359453015214868">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="12" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="698674079099491" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy6.png">
-                        <collision-poly>
-                            <point x="0.3125" y="0.3125" />
-                            <point x="0.5" y="0.101563" />
-                            <point x="0.6875" y="0.3125" />
-                            <point x="0.679688" y="0.5" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.828125" />
-                            <point x="0.25" y="0.75" />
-                            <point x="0.320313" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy1.png" />
-                </animation>
-                <animation framecount="10" loop="0" name="Happy" pingpong="0" repeatcount="1" repeatto="0" sid="854685367483814" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy10.png" />
-                </animation>
-                <animation framecount="13" loop="0" name="Confused" pingpong="0" repeatcount="1" repeatto="0" sid="959652085382565" speed="10">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused13.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
+        <object-folder name="Assets">
+            <object-folder name="Loader">
+                <object-folder name="UI">
+                    <object-type name="Loadingbg" sid="435079399633102">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437388137704801" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ChirpyLoadingIcon" sid="139686044516945">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790289504073185" speed="1">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy1.png">
+                                    <collision-poly>
+                                        <point x="0.375" y="0.375" />
+                                        <point x="0.5" y="0.265625" />
+                                        <point x="0.78125" y="0.21875" />
+                                        <point x="0.703125" y="0.5" />
+                                        <point x="0.671875" y="0.671875" />
+                                        <point x="0.5" y="0.6875" />
+                                        <point x="0.328125" y="0.671875" />
+                                        <point x="0.296875" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy2.png">
+                                    <collision-poly>
+                                        <point x="0.359375" y="0.359375" />
+                                        <point x="0.5" y="0.25" />
+                                        <point x="0.78125" y="0.21875" />
+                                        <point x="0.671875" y="0.671875" />
+                                        <point x="0.5" y="0.6875" />
+                                        <point x="0.328125" y="0.671875" />
+                                        <point x="0.28125" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+                <object-folder name="Font">
+                    <object-type name="LoadingProgressTxt" sid="758751920220420">
+                        <plugin id="Spritefont2" />
+                        <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
+                    </object-type>
+                    <object-type name="LoadingTxt" sid="398443022633732">
+                        <plugin id="Spritefont2" />
+                        <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
+                    </object-type>
+                </object-folder>
+            </object-folder>
+            <object-folder name="MainMenu">
+                <object-folder name="UI">
+                    <object-type name="Logo" sid="152582492866656">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="YMovement" sid="162409960331149">
+                                <behavior id="Sin" />
+                            </behavior-type>
+                            <behavior-type name="Scale" sid="580812244743677">
+                                <behavior id="Sin" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564481091119307" speed="5">
+                                <frame duration="1" hotspotX="0.504082" hotspotY="0.46124" original-source="D:\Aseprite\Art\Squawk Talk Logo.png">
+                                    <collision-poly>
+                                        <point x="0.295918" y="0.065891" />
+                                        <point x="0.504082" y="0.112404" />
+                                        <point x="0.704081" y="0.0813958" />
+                                        <point x="0.989796" y="0.46124" />
+                                        <point x="0.785714" y="0.996124" />
+                                        <point x="0.246939" y="0.949613" />
+                                        <point x="0.022449" y="0.46124" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="PlayBtn" sid="155201373960093">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="490655540629646" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_normal.png">
+                                    <collision-poly>
+                                        <point x="0.025641" y="0.08" />
+                                        <point x="0.5" y="0" />
+                                        <point x="0.974359" y="0.08" />
+                                        <point x="1" y="0.5" />
+                                        <point x="0.987179" y="0.96" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.0128205" y="0.96" />
+                                        <point x="0" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="1" loop="0" name="hover" pingpong="0" repeatcount="1" repeatto="0" sid="581614329977970" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_hover.png">
+                                    <collision-poly>
+                                        <point x="0.0384615" y="0.12" />
+                                        <point x="0.5" y="0.08" />
+                                        <point x="0.961538" y="0.12" />
+                                        <point x="1" y="0.5" />
+                                        <point x="0.974359" y="0.92" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.025641" y="0.92" />
+                                        <point x="0" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+            </object-folder>
+            <object-folder name="Game">
+                <object-folder name="UI">
+                    <object-type name="Chirpy" sid="944435687998406">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="359453015214868">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="12" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="698674079099491" speed="10">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy2.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy3.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy4.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy5.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy6.png">
+                                    <collision-poly>
+                                        <point x="0.3125" y="0.3125" />
+                                        <point x="0.5" y="0.101563" />
+                                        <point x="0.6875" y="0.3125" />
+                                        <point x="0.679688" y="0.5" />
+                                        <point x="0.75" y="0.75" />
+                                        <point x="0.5" y="0.828125" />
+                                        <point x="0.25" y="0.75" />
+                                        <point x="0.320313" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy7.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy8.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy9.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy10.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy11.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy12.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy1.png" />
+                            </animation>
+                            <animation framecount="10" loop="0" name="Happy" pingpong="0" repeatcount="1" repeatto="0" sid="854685367483814" speed="10">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy1.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy2.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy3.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy4.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy5.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy6.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy7.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy8.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy9.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Happy Animation\Chirpy10.png" />
+                            </animation>
+                            <animation framecount="13" loop="0" name="Confused" pingpong="0" repeatcount="1" repeatto="0" sid="959652085382565" speed="10">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused1.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused2.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused3.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused4.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused5.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused6.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused7.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused8.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused9.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused10.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused11.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused12.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Confused Animation\Chirpy_Confused13.png" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ComboSprite" sid="408646784049011">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="176112375120457">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Unamazed" pingpong="0" repeatcount="1" repeatto="0" sid="704034420682311" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo2.png">
+                                    <collision-poly>
+                                        <point x="0.28125" y="0.28125" />
+                                        <point x="0.5" y="0.1875" />
+                                        <point x="0.71875" y="0.28125" />
+                                        <point x="0.84375" y="0.5" />
+                                        <point x="0.75" y="0.75" />
+                                        <point x="0.5" y="0.8125" />
+                                        <point x="0.25" y="0.75" />
+                                        <point x="0.15625" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="1" loop="0" name="Love" pingpong="0" repeatcount="1" repeatto="0" sid="885868336251712" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo3.png">
+                                    <collision-poly>
+                                        <point x="0.28125" y="0.28125" />
+                                        <point x="0.5" y="0.1875" />
+                                        <point x="0.875" y="0.125" />
+                                        <point x="0.84375" y="0.5" />
+                                        <point x="0.75" y="0.75" />
+                                        <point x="0.5" y="0.8125" />
+                                        <point x="0.25" y="0.75" />
+                                        <point x="0.15625" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="1" loop="0" name="Hype" pingpong="0" repeatcount="1" repeatto="0" sid="131095849613284" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo4.png">
+                                    <collision-poly>
+                                        <point x="0.28125" y="0.28125" />
+                                        <point x="0.5" y="0.1875" />
+                                        <point x="0.71875" y="0.28125" />
+                                        <point x="0.84375" y="0.5" />
+                                        <point x="0.75" y="0.75" />
+                                        <point x="0.5" y="0.8125" />
+                                        <point x="0.25" y="0.75" />
+                                        <point x="0.15625" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ScoreBoard" sid="694317306700313">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="518787844659588" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Score_Board.png">
+                                    <collision-poly>
+                                        <point x="0.0833333" y="0.166667" />
+                                        <point x="0.916667" y="0.166667" />
+                                        <point x="1" y="0.5" />
+                                        <point x="0.991667" y="0.983333" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.00833333" y="0.983333" />
+                                        <point x="0" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="TypingBoard" sid="869055570031308">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Sine" sid="628660358098927">
+                                <behavior id="Sin" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411139636815032" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Typing_Board.png">
+                                    <collision-poly>
+                                        <point x="0.0833333" y="0.166667" />
+                                        <point x="0.916667" y="0.166667" />
+                                        <point x="1" y="0.5" />
+                                        <point x="0.991667" y="0.983333" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0.00833333" y="0.983333" />
+                                        <point x="0" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="Hand" sid="574414784278438">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816922496677705" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyStand.png">
+                                    <collision-poly>
+                                        <point x="0.141935" y="0.275" />
+                                        <point x="0.5" y="0.0125" />
+                                        <point x="0.980645" y="0.0375" />
+                                        <point x="0.722581" y="0.5" />
+                                        <point x="0.632258" y="0.2875" />
+                                        <point x="0.5" y="1" />
+                                        <point x="0" y="1" />
+                                        <point x="0.0451613" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+                <object-folder name="Font">
+                    <object-type name="InputText" sid="286909784226914">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="684326686266274">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont.png" />
+                    </object-type>
+                    <object-type name="Score" sid="732981497103433">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="984260436572371">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont.png" />
+                    </object-type>
+                    <object-type name="TxtFeedbackAware" sid="421125835450809">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Bullet" sid="183529855462502">
+                                <behavior id="Bullet" />
+                            </behavior-type>
+                            <behavior-type name="Fade" sid="723219178610157">
+                                <behavior id="Fade" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont_aware.png" />
+                    </object-type>
+                    <object-type name="TxtFeedbackRight" sid="934370447419408">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Bullet" sid="111275329536334">
+                                <behavior id="Bullet" />
+                            </behavior-type>
+                            <behavior-type name="Fade" sid="136390224493899">
+                                <behavior id="Fade" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont_correct.png" />
+                    </object-type>
+                    <object-type name="TxtFeedbackWrong" sid="794186683430777">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Bullet" sid="625552419073706">
+                                <behavior id="Bullet" />
+                            </behavior-type>
+                            <behavior-type name="Fade" sid="238447419277090">
+                                <behavior id="Fade" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont_wrong.png" />
+                    </object-type>
+                    <object-type name="TxtLetter" sid="130859827964471">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="146236579600203">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont.png" />
+                    </object-type>
+                    <object-type name="TxtTotalScore" sid="654141646839345">
+                        <plugin id="Spritefont2" />
+                        <behaviors>
+                            <behavior-type name="Pin" sid="214529056428985">
+                                <behavior id="Pin" />
+                            </behavior-type>
+                        </behaviors>
+                        <texture original-source="D:\Aseprite\Art\spritefont.png" />
+                    </object-type>
+                </object-folder>
+            </object-folder>
+            <object-type name="Background" sid="269652127134207">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="13" loop="0" name="TwoL" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="3">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background6.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background7.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background8.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background9.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background10.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background11.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background12.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background13.png" />
+                    </animation>
+                    <animation framecount="13" loop="0" name="OneL" pingpong="0" repeatcount="1" repeatto="0" sid="214082854837423" speed="3">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background6.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background7.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background8.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background9.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background10.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background11.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background12.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background13.png" />
+                    </animation>
+                    <animation framecount="13" loop="0" name="ZeroL" pingpong="0" repeatcount="1" repeatto="0" sid="141966452034619" speed="3">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background6.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background7.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background8.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background9.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background10.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background11.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background12.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background13.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Keyboard" sid="434137260436750">
             <plugin id="Keyboard" />
         </object-type>
@@ -130,9 +487,6 @@
                     <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
-        </object-type>
-        <object-type name="TxtTimer" sid="461167731260333">
-            <plugin id="Text" />
         </object-type>
         <object-type name="AJAX" sid="424160605352449">
             <plugin id="AJAX" />
@@ -163,6 +517,18 @@
                 </behavior-type>
             </behaviors>
         </object-type>
+        <object-type name="Mouse" sid="331522072579209">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TxtHighscore" sid="755995363873232">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Play" sid="883069141143036">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Audio" sid="925383149452700">
+            <plugin id="Audio" />
+        </object-type>
         <object-type name="ComboBar" sid="996573131383457">
             <plugin id="progressbar" />
             <behaviors>
@@ -171,369 +537,18 @@
                 </behavior-type>
             </behaviors>
         </object-type>
-        <object-type name="ComboSprite" sid="408646784049011">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="176112375120457">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Unamazed" pingpong="0" repeatcount="1" repeatto="0" sid="704034420682311" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo2.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.71875" y="0.28125" />
-                            <point x="0.84375" y="0.5" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.8125" />
-                            <point x="0.25" y="0.75" />
-                            <point x="0.15625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Love" pingpong="0" repeatcount="1" repeatto="0" sid="885868336251712" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo3.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.875" y="0.125" />
-                            <point x="0.84375" y="0.5" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.8125" />
-                            <point x="0.25" y="0.75" />
-                            <point x="0.15625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Hype" pingpong="0" repeatcount="1" repeatto="0" sid="131095849613284" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyCombo4.png">
-                        <collision-poly>
-                            <point x="0.28125" y="0.28125" />
-                            <point x="0.5" y="0.1875" />
-                            <point x="0.71875" y="0.28125" />
-                            <point x="0.84375" y="0.5" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.8125" />
-                            <point x="0.25" y="0.75" />
-                            <point x="0.15625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Mouse" sid="331522072579209">
-            <plugin id="Mouse" />
-        </object-type>
-        <object-type name="InputText" sid="286909784226914">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Pin" sid="684326686266274">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont.png" />
-        </object-type>
-        <object-type name="TxtLetter" sid="130859827964471">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Pin" sid="146236579600203">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont.png" />
-        </object-type>
-        <object-type name="ScoreBoard" sid="694317306700313">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="518787844659588" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Score_Board.png">
-                        <collision-poly>
-                            <point x="0.0833333" y="0.166667" />
-                            <point x="0.916667" y="0.166667" />
-                            <point x="1" y="0.5" />
-                            <point x="0.991667" y="0.983333" />
-                            <point x="0.5" y="1" />
-                            <point x="0.00833333" y="0.983333" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TypingBoard" sid="869055570031308">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="628660358098927">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411139636815032" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Typing_Board.png">
-                        <collision-poly>
-                            <point x="0.0833333" y="0.166667" />
-                            <point x="0.916667" y="0.166667" />
-                            <point x="1" y="0.5" />
-                            <point x="0.991667" y="0.983333" />
-                            <point x="0.5" y="1" />
-                            <point x="0.00833333" y="0.983333" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Background" sid="269652127134207">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="13" loop="0" name="TwoL" pingpong="0" repeatcount="1" repeatto="0" sid="206060989665172" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\Background13.png" />
-                </animation>
-                <animation framecount="13" loop="0" name="OneL" pingpong="0" repeatcount="1" repeatto="0" sid="214082854837423" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\OneL\Background13.png" />
-                </animation>
-                <animation framecount="13" loop="0" name="ZeroL" pingpong="0" repeatcount="1" repeatto="0" sid="141966452034619" speed="3">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="D:\Aseprite\Art\Menu Bg\ZeroL\Background13.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Logo" sid="152582492866656">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="YMovement" sid="162409960331149">
-                    <behavior id="Sin" />
-                </behavior-type>
-                <behavior-type name="Scale" sid="580812244743677">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564481091119307" speed="5">
-                    <frame duration="1" hotspotX="0.504082" hotspotY="0.46124" original-source="D:\Aseprite\Art\Squawk Talk Logo.png">
-                        <collision-poly>
-                            <point x="0.295918" y="0.065891" />
-                            <point x="0.504082" y="0.112404" />
-                            <point x="0.704081" y="0.0813958" />
-                            <point x="0.989796" y="0.46124" />
-                            <point x="0.785714" y="0.996124" />
-                            <point x="0.246939" y="0.949613" />
-                            <point x="0.022449" y="0.46124" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TxtHighscore" sid="755995363873232">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="TxtTotalScore" sid="654141646839345">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Pin" sid="214529056428985">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont.png" />
-        </object-type>
-        <object-type name="Score" sid="732981497103433">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Pin" sid="984260436572371">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont.png" />
-        </object-type>
-        <object-type name="Play" sid="883069141143036">
-            <plugin id="Button" />
-        </object-type>
-        <object-type name="TxtFeedbackRight" sid="934370447419408">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="111275329536334">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Fade" sid="136390224493899">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont_correct.png" />
-        </object-type>
-        <object-type name="PlayBtn" sid="155201373960093">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="490655540629646" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_normal.png">
-                        <collision-poly>
-                            <point x="0.025641" y="0.08" />
-                            <point x="0.5" y="0" />
-                            <point x="0.974359" y="0.08" />
-                            <point x="1" y="0.5" />
-                            <point x="0.987179" y="0.96" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0128205" y="0.96" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="hover" pingpong="0" repeatcount="1" repeatto="0" sid="581614329977970" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\PlayBtn_hover.png">
-                        <collision-poly>
-                            <point x="0.0384615" y="0.12" />
-                            <point x="0.5" y="0.08" />
-                            <point x="0.961538" y="0.12" />
-                            <point x="1" y="0.5" />
-                            <point x="0.974359" y="0.92" />
-                            <point x="0.5" y="1" />
-                            <point x="0.025641" y="0.92" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Audio" sid="925383149452700">
-            <plugin id="Audio" />
-        </object-type>
-        <object-type name="Hand" sid="574414784278438">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816922496677705" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\ChirpyStand.png">
-                        <collision-poly>
-                            <point x="0.141935" y="0.275" />
-                            <point x="0.5" y="0.0125" />
-                            <point x="0.980645" y="0.0375" />
-                            <point x="0.722581" y="0.5" />
-                            <point x="0.632258" y="0.2875" />
-                            <point x="0.5" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0.0451613" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TxtFeedbackWrong" sid="794186683430777">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="625552419073706">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Fade" sid="238447419277090">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont_wrong.png" />
-        </object-type>
-        <object-type name="TxtFeedbackAware" sid="421125835450809">
-            <plugin id="Spritefont2" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="183529855462502">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="Fade" sid="723219178610157">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="D:\Aseprite\Art\spritefont_aware.png" />
-        </object-type>
-        <object-type name="Loadingbg" sid="435079399633102">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437388137704801" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="ChirpyLoadingIcon" sid="139686044516945">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790289504073185" speed="1">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy1.png">
-                        <collision-poly>
-                            <point x="0.375" y="0.375" />
-                            <point x="0.5" y="0.265625" />
-                            <point x="0.78125" y="0.21875" />
-                            <point x="0.703125" y="0.5" />
-                            <point x="0.671875" y="0.671875" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.328125" y="0.671875" />
-                            <point x="0.296875" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Aseprite\Art\Chirpy Sleep Loading\Sleeping Chirpy2.png">
-                        <collision-poly>
-                            <point x="0.359375" y="0.359375" />
-                            <point x="0.5" y="0.25" />
-                            <point x="0.78125" y="0.21875" />
-                            <point x="0.671875" y="0.671875" />
-                            <point x="0.5" y="0.6875" />
-                            <point x="0.328125" y="0.671875" />
-                            <point x="0.28125" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="LoadingTxt" sid="398443022633732">
-            <plugin id="Spritefont2" />
-            <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
-        </object-type>
-        <object-type name="LoadingProgressTxt" sid="758751920220420">
-            <plugin id="Spritefont2" />
-            <texture original-source="D:\Aseprite\Art\spritefont_white.png" />
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>MainMenu.xml</layout>
         <layout>Game.xml</layout>
         <layout>Gameover.xml</layout>
         <layout>Loader.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>GameEvent.xml</event-sheet>
+        <event-sheet>GameoverEvent.xml</event-sheet>
+        <event-sheet>MainMenuEvent.xml</event-sheet>
         <event-sheet>LoaderEvent.xml</event-sheet>
     </event-folder>
     <global-instances>

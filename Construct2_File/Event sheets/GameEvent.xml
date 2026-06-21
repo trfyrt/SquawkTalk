@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
+    <name>GameEvent</name>
     <events>
         <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">0</variable>
         <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
@@ -197,9 +197,6 @@
                 <action id="-11" name="Subtract from" sid="529121831510870" type="System">
                     <param id="0" name="Variable">timer</param>
                     <param id="1" name="Value">dt</param>
-                </action>
-                <action id="0" name="Set text" sid="153686362538667" type="TxtTimer">
-                    <param id="0" name="Text">timer</param>
                 </action>
                 <action id="3" name="Set progress" sid="356585305197570" type="TimerBar">
                     <param id="0" name="Value">timer</param>
@@ -489,7 +486,10 @@
         </event-block>
         <event-block sid="315565164015088">
             <conditions>
-                <condition id="1" name="On any click" sid="858630834458877" type="Mouse" />
+                <condition id="0" name="On click" sid="858630834458877" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="6" name="Set focused" sid="330551990218044" type="InputBox" />

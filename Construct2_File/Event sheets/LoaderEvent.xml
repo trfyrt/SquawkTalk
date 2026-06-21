@@ -19,7 +19,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="247843215503829" type="System">
-                    <param id="0" name="Layout">Layout 1</param>
+                    <param id="0" name="Layout">MainMenu</param>
                 </action>
             </actions>
         </event-block>

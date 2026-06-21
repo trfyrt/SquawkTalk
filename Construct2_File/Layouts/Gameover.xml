@@ -2,7 +2,7 @@
 <c2layout>
     <name>Gameover</name>
     <sid>488373842156423</sid>
-    <event-sheet>Event sheet 2</event-sheet>
+    <event-sheet>GameoverEvent</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>

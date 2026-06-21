@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 2</name>
+    <name>GameoverEvent</name>
     <events>
         <variable constant="0" name="totalScoreTemp" sid="844645676539388" static="0" type="number">0</variable>
         <variable constant="0" name="highScore" sid="940216682539975" static="0" type="number">0</variable>
-        <include>Event sheet 1</include>
+        <include>GameEvent</include>
         <event-block sid="697502562320715">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="677473987114544" type="System" />
