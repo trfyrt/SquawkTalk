@@ -20,12 +20,8 @@
 
 ---
 
-# 🎮 Play Now
-
-**Play SquawkTalk in your browser:**  
-👉 **[Play Here](https://squawk-talk.vercel.app/)**
-
-_No download required._
+# [🎮 Play Now](https://squawk-talk.vercel.app/)
+_**Play SquawkTalk in your browser.**_
 
 
 ---
