@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GlobalEvent</name>
+    <events>
+        <event-block sid="645536562313646">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="772968595834843" type="System" />
+                <condition id="5" inverted="1" name="Is tag playing" sid="810735516171054" type="Audio">
+                    <param id="0" name="Tag">&quot;theme&quot;</param>
+                </condition>
+                <condition id="1" name="Preloads complete" sid="632829739741578" type="Audio" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="806088662946091" type="Audio">
+                    <param id="0" name="Audio file">main</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;theme&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

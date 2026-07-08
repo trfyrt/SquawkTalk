@@ -550,6 +550,7 @@
         <event-sheet>GameoverEvent.xml</event-sheet>
         <event-sheet>MainMenuEvent.xml</event-sheet>
         <event-sheet>LoaderEvent.xml</event-sheet>
+        <event-sheet>GlobalEvent.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />

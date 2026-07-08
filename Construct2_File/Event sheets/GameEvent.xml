@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameEvent</name>
     <events>
+        <include>GlobalEvent</include>
         <variable constant="0" name="comboTimer" sid="295116462026569" static="0" type="number">0</variable>
         <variable constant="0" name="maxTimer" sid="217393507077013" static="0" type="number">60</variable>
         <variable comment="Teaching Time Countdown" constant="0" name="timer" sid="540846400089145" static="0" type="number">60</variable>

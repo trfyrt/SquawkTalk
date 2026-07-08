@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MainMenuEvent</name>
     <events>
+        <include>GlobalEvent</include>
         <event-block sid="586819834595750">
             <conditions>
                 <condition id="0" name="On clicked" sid="112392233326489" type="Play" />
@@ -61,19 +62,6 @@
                 <action id="4" name="Set animation" sid="576972102839900" type="Background">
                     <param id="0" name="Animation">choose(&quot;TwoL&quot;,&quot;OneL&quot;,&quot;ZeroL&quot;)</param>
                     <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="102593664318117">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="208359535169096" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="337493942557471" type="Audio">
-                    <param id="0" name="Audio file">main</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;theme&quot;</param>
                 </action>
             </actions>
         </event-block>

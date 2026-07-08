@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameoverEvent</name>
     <events>
+        <include>GlobalEvent</include>
         <variable constant="0" name="totalScoreTemp" sid="844645676539388" static="0" type="number">0</variable>
         <variable constant="0" name="highScore" sid="940216682539975" static="0" type="number">0</variable>
         <include>GameEvent</include>
