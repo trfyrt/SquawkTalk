@@ -13,6 +13,16 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="163096914597199">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="822759141801631" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="798346149952901" type="Audio">
+                    <param id="0" name="Audio file">main</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="292497997322720">
             <conditions>
                 <condition id="-25" name="On loader layout complete" sid="204324759724858" type="System" />

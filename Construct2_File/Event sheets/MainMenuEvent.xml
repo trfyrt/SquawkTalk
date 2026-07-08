@@ -64,16 +64,16 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="338805250994777">
+        <event-block sid="102593664318117">
             <conditions>
-                <condition id="-25" name="On loader layout complete" sid="257757707839833" type="System" />
+                <condition id="-2" name="On start of layout" sid="208359535169096" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="274779920004736" type="Audio">
-                    <param id="0" name="Audio file">Furin Summer Loop</param>
+                <action id="0" name="Play" sid="337493942557471" type="Audio">
+                    <param id="0" name="Audio file">main</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;theme&quot;</param>
                 </action>
             </actions>
         </event-block>

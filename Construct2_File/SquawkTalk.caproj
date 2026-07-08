@@ -574,8 +574,8 @@
     </global-instances>
     <sounds-folder />
     <music-folder>
-        <file name="Furin Summer Loop.m4a" />
-        <file name="Furin Summer Loop.ogg" />
+        <file name="main.m4a" />
+        <file name="main.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
